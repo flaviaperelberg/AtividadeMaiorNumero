@@ -1,7 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h> 
-#include <math.h>
-
 int main(void){
   
   int cont, numero, maior, menor;
@@ -11,7 +8,7 @@ int main(void){
   maior=numero;
   menor=numero;
   
-  for(cont=1; cont<=4; cont++){
+  for(cont=1; cont<=5; cont++){
     printf("Digite um número:\n");
     scanf("%d", &numero);
     
